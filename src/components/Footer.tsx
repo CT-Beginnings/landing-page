@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <a href="#" className="flex items-center gap-2.5">
-              <NodoLogo size={36} />
+              <NodoLogo size={44} />
               <span className="text-xl font-bold text-white tracking-tight">Nodo</span>
             </a>
             <p className="mt-3 text-sm italic text-nodo-400">
