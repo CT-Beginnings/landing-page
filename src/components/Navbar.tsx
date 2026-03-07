@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group">
-            <NodoLogo size={44} className="transition-transform group-hover:scale-105" />
+            <NodoLogo size={48} className="transition-transform group-hover:scale-105" />
             <span className="text-xl font-bold text-white tracking-tight">Nodo</span>
           </a>
 

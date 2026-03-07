@@ -15,10 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nodo — Laptops, redes y servidores para tu empresa",
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/icon-dark.svg", type: "image/svg+xml", sizes: "any" },
-    ],
+    icon: "/icon-dark.svg",
     apple: "/icon-dark.svg",
   },
   description:

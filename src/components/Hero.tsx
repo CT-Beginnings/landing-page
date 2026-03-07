@@ -20,7 +20,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="mb-6 inline-flex items-center gap-3 rounded-full border border-accent-500/20 bg-accent-500/5 px-5 py-2"
           >
-            <NodoLogo size={36} />
+            <NodoLogo size={40} />
             <span className="text-base font-semibold text-white tracking-wide">
               Nodo
             </span>
