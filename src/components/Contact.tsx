@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
-const WHATSAPP_NUMBER = "526624665609";
+const WHATSAPP_NUMBER = "526421513931";
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hola, me interesa una cotización de equipo de cómputo / consultoría tecnológica."
 );
@@ -212,7 +212,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-medium text-white">Teléfono</p>
                   <p className="text-sm text-nodo-400">
-                    +52 662 466 5609
+                    +52 642 151 3931
                   </p>
                 </div>
               </div>

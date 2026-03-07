@@ -53,6 +53,16 @@ export default function Hero() {
             enfoque en Hermosillo, Guadalajara y Monterrey.
           </motion.p>
 
+          {/* Slogan */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.35 }}
+            className="mt-4 text-sm font-medium italic text-nodo-500"
+          >
+            "Conectamos empresas con la tecnología correcta."
+          </motion.p>
+
           {/* CTAs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

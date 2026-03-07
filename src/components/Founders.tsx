@@ -10,7 +10,7 @@ const founders = [
     education: "Ing. en Tecnologías Computacionales — Tec de Monterrey",
     experience: ["Oracle", "Microsoft"],
     bio: "Egresado del Tec de Monterrey con formación en infraestructura empresarial en Oracle y Microsoft. Se enfoca en entender las necesidades reales de cada empresa para recomendar la solución más adecuada.",
-    linkedin: "#", // TODO: Add real LinkedIn URL
+    linkedin: "https://www.linkedin.com/in/jos%C3%A9-m-soto-vzla",
     phone: "6421513931",
     initials: "JM",
   },
@@ -20,7 +20,7 @@ const founders = [
     education: "Ing. en Tecnologías Computacionales — Tec de Monterrey",
     experience: ["Oracle", "Microsoft"],
     bio: "Egresado del Tec de Monterrey con experiencia en empresas como Oracle y Microsoft. Especializado en implementación de soluciones tecnológicas y acompañamiento técnico continuo.",
-    linkedin: "#", // TODO: Add real LinkedIn URL
+    linkedin: "https://www.linkedin.com/in/cesaralansilva/",
     phone: "6624665609",
     initials: "CA",
   },

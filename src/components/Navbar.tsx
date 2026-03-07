@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   { href: "#servicios", label: "Servicios" },
@@ -66,6 +67,7 @@ export default function Navbar() {
             >
               Cotiza Gratis
             </a>
+            <ThemeToggle />
           </div>
 
           {/* Mobile toggle */}
@@ -107,6 +109,9 @@ export default function Navbar() {
               >
                 Cotiza Gratis
               </a>
+              <div className="flex justify-center pt-2">
+                <ThemeToggle />
+              </div>
             </div>
           </motion.div>
         )}

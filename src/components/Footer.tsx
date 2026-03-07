@@ -41,7 +41,10 @@ export default function Footer() {
               </svg>
               <span className="text-xl font-bold text-white tracking-tight">Nodo</span>
             </a>
-            <p className="mt-4 text-sm text-nodo-500 leading-relaxed max-w-xs">
+            <p className="mt-3 text-sm italic text-nodo-400">
+              "Conectamos empresas con la tecnología correcta."
+            </p>
+            <p className="mt-3 text-sm text-nodo-500 leading-relaxed max-w-xs">
               Equipamiento de cómputo, redes y software para empresas.
               Consultoría, implementación y soporte en todo México.
             </p>
@@ -114,10 +117,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+526624665609"
+                  href="tel:+526421513931"
                   className="hover:text-white transition-colors"
                 >
-                  +52 662 466 5609
+                  +52 642 151 3931
                 </a>
               </li>
             </ul>

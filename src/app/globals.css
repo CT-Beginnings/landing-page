@@ -28,6 +28,60 @@ body {
   background: var(--color-nodo-950);
   color: #f1f5f9;
   font-family: var(--font-sans), system-ui, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ── Light Mode ── */
+html.light body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+html.light .bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.04) 1px, transparent 1px);
+}
+
+/* Text colors */
+html.light .text-white { color: #0f172a; }
+html.light .text-nodo-400 { color: #475569; }
+html.light .text-nodo-300 { color: #334155; }
+html.light .text-nodo-500 { color: #64748b; }
+html.light .text-nodo-600 { color: #94a3b8; }
+html.light .text-nodo-200 { color: #1e293b; }
+
+/* Backgrounds */
+html.light .bg-nodo-950\/80 { background: rgba(248,250,252,0.85); }
+html.light .bg-nodo-950\/95 { background: rgba(248,250,252,0.97); }
+html.light .bg-nodo-950 { background: #f8fafc; }
+html.light .bg-white\/5 { background: rgba(0,0,0,0.03); }
+html.light .bg-white\/\[0\.02\] { background: rgba(0,0,0,0.02); }
+html.light .bg-white\/\[0\.04\] { background: rgba(0,0,0,0.04); }
+html.light .bg-white\/\[0\.05\] { background: rgba(0,0,0,0.05); }
+
+/* Borders */
+html.light .border-white\/5 { border-color: rgba(0,0,0,0.08); }
+html.light .border-white\/10 { border-color: rgba(0,0,0,0.1); }
+html.light .border-white\/20 { border-color: rgba(0,0,0,0.15); }
+
+/* Glows in light */
+html.light .glow-blue {
+  box-shadow: 0 0 60px rgba(59,130,246,0.08), 0 0 120px rgba(59,130,246,0.03);
+}
+
+/* Gradient orbs lighter */
+html.light .bg-accent-500\/10 { background: rgba(59,130,246,0.06); }
+html.light .bg-accent-600\/8 { background: rgba(37,99,235,0.04); }
+
+/* Navbar text in light */
+html.light .hover\:text-white:hover { color: #0f172a; }
+html.light .hover\:bg-white\/10:hover { background: rgba(0,0,0,0.06); }
+html.light .hover\:bg-white\/5:hover { background: rgba(0,0,0,0.04); }
+
+/* Gradient border adjust */
+html.light .gradient-border::before {
+  background: linear-gradient(135deg, rgba(59,130,246,0.15), transparent, rgba(59,130,246,0.08));
 }
 
 ::selection {
