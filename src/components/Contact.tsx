@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MessageCircle, Phone, Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
 const WHATSAPP_NUMBER = "526624665609";

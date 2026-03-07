@@ -1,11 +1,11 @@
 "use client";
 
+import { clsx } from "clsx";
 import { motion } from "framer-motion";
 import {
-  ChevronDown,
+    ChevronDown,
 } from "lucide-react";
 import { useState } from "react";
-import { clsx } from "clsx";
 
 const faqs = [
   {

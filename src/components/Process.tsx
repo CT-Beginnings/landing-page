@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import {
-  MessageSquare,
-  ClipboardCheck,
-  FileText,
-  CreditCard,
-  Truck,
-  HeartHandshake,
+    ClipboardCheck,
+    CreditCard,
+    FileText,
+    HeartHandshake,
+    MessageSquare,
+    Truck,
 } from "lucide-react";
 
 const steps = [

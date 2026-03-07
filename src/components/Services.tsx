@@ -1,16 +1,15 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 import {
-  Search,
-  Monitor,
-  Settings,
-  Headphones,
-  Network,
-  ShieldCheck,
+    Headphones,
+    Monitor,
+    Network,
+    Search,
+    Settings,
+    ShieldCheck,
 } from "lucide-react";
+import { useRef } from "react";
 
 const services = [
   {

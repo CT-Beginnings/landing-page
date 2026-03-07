@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { useEffect, useState } from "react";
 
 const navLinks = [
   { href: "#servicios", label: "Servicios" },

@@ -2,14 +2,14 @@
 
 import { motion } from "framer-motion";
 import {
-  GraduationCap,
-  Building2,
-  BadgeDollarSign,
-  FileCheck,
-  Wrench,
-  MapPin,
-  Check,
-  X,
+    BadgeDollarSign,
+    Building2,
+    Check,
+    FileCheck,
+    GraduationCap,
+    MapPin,
+    Wrench,
+    X,
 } from "lucide-react";
 
 const reasons = [

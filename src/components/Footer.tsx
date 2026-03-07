@@ -1,4 +1,4 @@
-import { Linkedin, Instagram, Facebook, Mail } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
 
 const footerLinks = {
   servicios: [

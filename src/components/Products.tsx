@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import {
-  Laptop,
-  Server,
-  Wifi,
-  Printer,
-  MonitorSmartphone,
-  HardDrive,
+    HardDrive,
+    Laptop,
+    MonitorSmartphone,
+    Printer,
+    Server,
+    Wifi,
 } from "lucide-react";
 
 const products = [
