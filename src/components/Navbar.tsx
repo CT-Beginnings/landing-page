@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group">
             <svg className="h-8 w-8 transition-transform group-hover:scale-105" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="32" height="32" rx="8" fill="#3b82f6"/>
+              <rect width="32" height="32" rx="8" fill="#2b4acb"/>
               <circle cx="16" cy="12" r="3.5" fill="white"/>
               <circle cx="8" cy="22" r="2.5" fill="white" opacity="0.8"/>
               <circle cx="24" cy="22" r="2.5" fill="white" opacity="0.8"/>
