@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import NodoLogo from "./NodoLogo";
 
 export default function Hero() {
   return (
@@ -19,9 +20,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="mb-6 inline-flex items-center gap-3 rounded-full border border-accent-500/20 bg-accent-500/5 px-5 py-2"
           >
-            <div className="flex h-7 w-7 items-center justify-center rounded-md bg-accent-500">
-              <span className="text-xs font-bold text-white">N</span>
-            </div>
+            <NodoLogo size={28} />
             <span className="text-base font-semibold text-white tracking-wide">
               Nodo
             </span>

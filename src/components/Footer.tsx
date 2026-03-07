@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
+import NodoLogo from "./NodoLogo";
 
 const footerLinks = {
   servicios: [
@@ -30,15 +31,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <a href="#" className="flex items-center gap-2.5">
-              <svg className="h-8 w-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="8" fill="#2b4acb"/>
-                <circle cx="16" cy="12" r="3.5" fill="white"/>
-                <circle cx="8" cy="22" r="2.5" fill="white" opacity="0.8"/>
-                <circle cx="24" cy="22" r="2.5" fill="white" opacity="0.8"/>
-                <line x1="14" y1="14.5" x2="9.5" y2="20" stroke="white" strokeWidth="1.5" strokeLinecap="round" opacity="0.6"/>
-                <line x1="18" y1="14.5" x2="22.5" y2="20" stroke="white" strokeWidth="1.5" strokeLinecap="round" opacity="0.6"/>
-                <line x1="10.5" y1="22" x2="21.5" y2="22" stroke="white" strokeWidth="1.5" strokeLinecap="round" opacity="0.4"/>
-              </svg>
+              <NodoLogo size={36} />
               <span className="text-xl font-bold text-white tracking-tight">Nodo</span>
             </a>
             <p className="mt-3 text-sm italic text-nodo-400">
