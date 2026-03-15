@@ -75,6 +75,7 @@ export default function Founders() {
                     src={founder.photo}
                     alt={founder.name}
                     fill
+                    unoptimized
                     className="object-cover"
                     sizes="96px"
                   />
