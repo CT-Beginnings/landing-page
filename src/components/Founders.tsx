@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Linkedin, Phone } from "lucide-react";
+import Image from "next/image";
 
 const founders = [
   {
@@ -12,16 +13,18 @@ const founders = [
     bio: "Egresado del Tec de Monterrey con formación en infraestructura empresarial en Oracle y Microsoft. Se enfoca en entender las necesidades reales de cada empresa para recomendar la solución más adecuada.",
     linkedin: "https://www.linkedin.com/in/jos%C3%A9-m-soto-vzla",
     phone: "6421513931",
+    photo: "/JoseMaria.jpg",
     initials: "JM",
   },
   {
     name: "César Alan Silva Ramos",
     role: "Co-Fundador",
     education: "Ing. en Tecnologías Computacionales — Tec de Monterrey",
-    experience: ["Oracle", "Microsoft"],
-    bio: "Egresado del Tec de Monterrey con experiencia en empresas como Oracle y Microsoft. Especializado en implementación de soluciones tecnológicas y acompañamiento técnico continuo.",
+    experience: ["Oracle", "Avertium Cybersecurity"],
+    bio: "Egresado del Tec de Monterrey con experiencia en empresas como Oracle y Avertium Cybersecurity. Especializado en implementación de soluciones tecnológicas y acompañamiento técnico continuo.",
     linkedin: "https://www.linkedin.com/in/cesaralansilva/",
     phone: "6624665609",
+    photo: "/JoseMaria.jpg",
     initials: "CA",
   },
 ];
@@ -49,8 +52,8 @@ export default function Founders() {
           </h2>
           <p className="mt-4 text-lg text-nodo-400">
             Dos ingenieros del Tec de Monterrey que decidieron aplicar lo
-            aprendido en Oracle y Microsoft para ayudar a empresas en México
-            a equiparse mejor.
+            aprendido en empresas como Oracle, Microsoft y Avertium para ayudar
+            a empresas en México a equiparse mejor.
           </p>
         </motion.div>
 
@@ -65,10 +68,16 @@ export default function Founders() {
               transition={{ duration: 0.5, delay: index * 0.15 }}
               className="relative rounded-2xl border border-white/5 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.04] hover:border-white/10 gradient-border"
             >
-              {/* Avatar placeholder */}
+              {/* Avatar */}
               <div className="mb-6 flex items-center gap-5">
-                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-accent-500 to-accent-700 text-xl font-bold text-white">
-                  {founder.initials}
+                <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-2xl ring-2 ring-white/10">
+                  <Image
+                    src={founder.photo}
+                    alt={founder.name}
+                    fill
+                    className="object-cover"
+                    sizes="64px"
+                  />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">
