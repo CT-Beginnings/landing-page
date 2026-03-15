@@ -69,14 +69,14 @@ export default function Founders() {
               className="relative rounded-2xl border border-white/5 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.04] hover:border-white/10 gradient-border"
             >
               {/* Avatar */}
-              <div className="mb-6 flex items-center gap-5">
-                <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-2xl ring-2 ring-white/10">
+              <div className="mb-6 flex flex-col items-center text-center gap-4">
+                <div className="relative h-24 w-24 overflow-hidden rounded-full ring-2 ring-accent-500/30 ring-offset-2 ring-offset-nodo-950">
                   <Image
                     src={founder.photo}
                     alt={founder.name}
                     fill
                     className="object-cover"
-                    sizes="64px"
+                    sizes="96px"
                   />
                 </div>
                 <div>
