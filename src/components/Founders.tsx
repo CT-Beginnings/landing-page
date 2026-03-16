@@ -13,7 +13,7 @@ const founders = [
     bio: "Egresado del Tec de Monterrey con formación en infraestructura empresarial en Oracle y Microsoft. Se enfoca en entender las necesidades reales de cada empresa para recomendar la solución más adecuada.",
     linkedin: "https://www.linkedin.com/in/jos%C3%A9-m-soto-vzla",
     phone: "6421513931",
-    photo: "/JoseMaria.jpg",
+    photo: "/images/team/JoseMaria.jpg",
     initials: "JM",
   },
   {
@@ -24,7 +24,7 @@ const founders = [
     bio: "Egresado del Tec de Monterrey con experiencia en empresas como Oracle y Avertium Cybersecurity. Especializado en implementación de soluciones tecnológicas y acompañamiento técnico continuo.",
     linkedin: "https://www.linkedin.com/in/cesaralansilva/",
     phone: "6624665609",
-    photo: "/JoseMaria.jpg",
+    photo: "images/team/CesarSilva.jpg",
     initials: "CA",
   },
 ];
