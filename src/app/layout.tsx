@@ -40,7 +40,6 @@ export const metadata: Metadata = {
   },
 };
 
-import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({
   children,
@@ -48,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="scroll-smooth">
+    <html lang="es" className="scroll-smooth light">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

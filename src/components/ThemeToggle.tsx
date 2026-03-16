@@ -4,13 +4,15 @@ import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [theme, setTheme] = useState<"dark" | "light">("light");
 
   useEffect(() => {
     const saved = localStorage.getItem("nodo-theme") as "dark" | "light" | null;
     if (saved) {
       setTheme(saved);
       document.documentElement.classList.toggle("light", saved === "light");
+    } else {
+      document.documentElement.classList.add("light");
     }
   }, []);
 
